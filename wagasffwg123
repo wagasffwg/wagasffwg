@@ -1,0 +1,16 @@
+name: Greetings wagas ffwg
+
+on: [pull_request, issues]
+
+jobs: web
+  greeting:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      pull-requests: write
+    steps: wagas
+    - uses: actions/first-interaction@v1
+      with: wagasffwg
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        issue-message: 'Message that will be displayed on users first issue'
+        pr-message: 'Message that will be displayed on users first pull request'
