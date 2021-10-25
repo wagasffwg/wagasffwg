@@ -1,9 +1,8 @@
-### Hi there 👋
 
-<!--
-**wagasffwg/wagasffwg** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your wagasffwg profile.
+**wagasffwg/wagasffwg**  ✨ repository because its `README.md` (this file) appears on your wagasffwg profile.
 
-Here are some ideas to get you started:
+Here وقاص عوض
+سوداني
 
 - 🔭 I’m currently working on ...
 - 🌱 I’m currently learning ...
