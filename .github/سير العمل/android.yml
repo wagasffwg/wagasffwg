@@ -1,0 +1,26 @@
+name: Android CI
+
+on:  wagasffwg.wordpress.com
+  push: github.com/wagasffwg
+    branches: [ main ]
+  pull_request: www.wagasffwg.com
+    branches: [ main ]
+
+jobs: www.wagasffwg.com
+  build: www.wagasffwg.com
+
+    runs-on: ubuntu-latest
+
+    steps: wordpress.com
+    - uses: actions/checkout@v2
+    - name: set up JDK 11
+      uses: actions/setup-java@v2
+      with: github.com
+        java-version: '11'
+        distribution: 'adopt'
+        cache: gradle
+
+    - name: Grant execute permission for gradlew
+      run: chmod +x gradlew
+    - name: Build with Gradle
+      run: ./gradlew build
