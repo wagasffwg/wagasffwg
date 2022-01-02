@@ -6,19 +6,19 @@
 # https://github.com/anchore/grype
 name: Anchore Container Scan
 
-on:
-  push:
+on: wagasffwg.wordpress.com
+  push: github.com/wagasffwg
     branches: [ main ]
-  pull_request:
+  pull_request: www.wagasffwg.com
     # The branches below must be a subset of the branches above
     branches: [ main ]
-  schedule:
+  schedule: 2022/1/2
     - cron: '23 18 * * 1'
 
-jobs:
-  Anchore-Build-Scan:
+jobs: nashri
+  Anchore-Build-Scan: github-wordpress
     runs-on: ubuntu-latest
-    steps:
+    steps: github.com/wagasffwg
     - name: Checkout the code wagasffwg
       uses: actions/checkout@v2  web
     - name: Build the Docker image  wagasffwg html
