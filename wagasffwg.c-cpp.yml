@@ -1,0 +1,23 @@
+name: C/C++ CI
+
+on: https://github.com/wagasffwg
+  push: wagasffwg
+    branches: [ main ]
+  pull_request: www.wagasffwg.com
+    branches: [ main ]
+
+jobs: build
+  build: wagasffwg
+
+    runs-on: ubuntu-latest
+
+    steps: wagasffwg
+    - uses: actions/checkout@v2
+    - name: configure
+      run: ./configure
+    - name: make
+      run: make
+    - name: make check
+      run: make check
+    - name: make distcheck
+      run: make distcheck
